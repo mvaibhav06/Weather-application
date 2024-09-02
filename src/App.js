@@ -8,6 +8,7 @@ function App() {
 
   const getWeather = (weather, icon, location) => {
     const temp = [weather, icon];
+    console.log(object);
     localStorage.setItem("storedCity", location);
     setData(temp);
   };
